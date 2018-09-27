@@ -52,6 +52,7 @@ clickCount = id =>{
     return (
     <Container>
       <Header score={this.state.score} TopScore={this.state.TopScore}>Clicky Game</Header>
+     
       {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
